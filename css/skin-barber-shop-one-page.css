@@ -4155,3 +4155,23 @@ blockquote.border {
 		height: 5	00px;
 	}
 }
+
+/* video for mobile */
+
+.video-for-mobile {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.video-button-container {
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.video-button-container {
+		display: block;
+	}
+}
+

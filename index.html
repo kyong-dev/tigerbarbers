@@ -5,10 +5,10 @@
 	<meta charset="UTF-8" />
 	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
 	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Your-Title-Here" />
+	<meta property="og:title" content="Tiger Barbers" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Your-Page-Description" />
+	<meta property="og:image" content="images/barber-shop/generic/tigerbarbers_2.png" />
+	<meta property="og:description" content="Tiger Barbers is one of the best barbers based in the heart of Melbourne." />
 	<title>Tiger Barbers</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/tigerbarbers_logo_icon.ico">
 
@@ -54,7 +54,10 @@
 											<a href="#about" data-offset="-60" class="scroll-link">About</a>
 										</li>
 										<li>
-											<a href="#shop" data-offset="-60" class="scroll-link">Gallery</a>
+											<a href="#menu" data-offset="-60" class="scroll-link">Menu</a>
+										</li>
+										<li>
+											<a href="#gallery" data-offset="-60" class="scroll-link">Gallery</a>
 										</li>
 										<li>
 											<a href="#contact" data-offset="-60" class="scroll-link">Contact</a>
@@ -225,7 +228,10 @@
 											<a href="#about" data-offset="-86" class="scroll-link">About</a>
 										</li>
 										<li>
-											<a href="#shop" data-offset="-60" class="scroll-link">Gallery</a>
+											<a href="#menu" data-offset="-86" class="scroll-link">Menu</a>
+										</li>
+										<li>
+											<a href="#gallery" data-offset="-60" class="scroll-link">Gallery</a>
 										</li>
 										<li>
 											<a href="#contact" data-offset="-80" class="scroll-link">Contact</a>
@@ -244,7 +250,7 @@
 					<!-- Fullscreen Slider Section -->
 					<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
 						<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax
-							data-animation="scaleIn" data-auto-advance-interval="0" data-progress-bar="false"
+							data-animation="scaleIn" data-auto-advance-interval="7000" data-progress-bar="false"
 							data-pause-on-hover="false" data-speed="1400" data-scale-under="960">
 							<ul class="tms-slides">
 								<li class="tms-slide" data-video data-video-bkg data-overlay-bkg-color="#000000"
@@ -273,16 +279,16 @@
 															data-offset="-60">Book App.</a> -->
 														<a target="_blank" class="shedul-embed-button-link"
 															style="overflow: visible; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); border: 2px solid; display: inline-block; box-shadow: none; padding: 8px; margin: 0px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 16px; text-decoration: none; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-appearance: none; -webkit-box-shadow: none; ;"
-															href="https://app.shedul.com/online_bookings/tigerbarbers-w43ddzra/link">Book
+															href="tel:+61396502210">Book
 															Now</a>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<video poster="images/blank.png">
-										<!--<source type="video/mp4" src="images/barber-shop/slider/barber.mp4" />
-										<source type="video/webm" src="images/barber-shop/slider/barber.webm" />-->
+									<video poster="images/blank.png" muted>
+										<source type="video/mp4" src="images/barber-shop/slider/tiger_barbers.mp4" />
+										<source type="video/webm" src="images/barber-shop/slider/tiger_barbers.webm" />
 									</video>
 									<img data-src="images/barber-shop/slider/tigerbarbers_slide_1.png" data-retina
 										src="images/blank.png" alt="" />
@@ -312,10 +318,12 @@
 															class="tms-caption button medium text-small text-uppercase bkg-theme color-charcoal border-hover-white color-hover-white scroll-link"
 															data-offset="-60">Book App.
 														</a> -->
+														<!--https://app.shedul.com/online_bookings/tigerbarbers-w43ddzra/link -->
 														<a target="_blank" class="shedul-embed-button-link"
 															style="overflow: visible; cursor: pointer; font-weight: bold; color: rgb(255, 255, 255); border: 2px solid; display: inline-block; box-shadow: none; padding: 8px; margin: 0px; font-family: Roboto, sans-serif; font-size: 16px; line-height: 16px; text-decoration: none; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-appearance: none; -webkit-box-shadow: none; ;"
-															href="https://app.shedul.com/online_bookings/tigerbarbers-w43ddzra/link">Book
+															href="tel:+61396502210">Book
 															Now</a>
+														
 													</div>
 												</div>
 											</div>
@@ -330,7 +338,7 @@
 					<!-- Fullscreen Slider Section End -->
 
 					<!-- About -->
-					<section id="about">
+					<section>
 
 						<!-- Hero 5 -->
 						<div
@@ -338,7 +346,7 @@
 							<div class="media-column width-4"></div>
 							<div class="row">
 								<div class="column width-8 left">
-									<h3 class="mb-50" style="padding-top: 15px;">The Barbers</h3>
+									<h3 class="mb-50" style="padding-top: 15px;" id="about">The Barbers</h3>
 									<!-- Team Grid -->
 									<div class="row">
 										<div class="column width-12">
@@ -401,6 +409,14 @@
 												</div>
 											</div>
 										</div>
+										<video controlsList="nodownload" id="myvideo" poster="images/TIGER_logo.png" class="video-for-mobile" controls>
+											<source type="video/mp4" src="images/barber-shop/slider/tiger_barbers.mp4" />
+											<source type="video/webm" src="images/barber-shop/slider/tiger_barbers.webm" />
+											Your browser does not support HTML5 video.
+										</video>
+										<div class="video-button-container">
+											<button v-on:click="goFullscreen">Play Video in Fullscreen Mode</button>
+										</div>
 									</div>
 									<!-- Team Grid End -->
 								</div>
@@ -412,7 +428,7 @@
 						<div class="section-block pb-40 bkg-charcoal">
 							<div class="row">
 								<div class="column width-12 color-white">
-									<h3 class="mb-40">Off The Wall</h3>
+									<h3 class="mb-40" id="menu">Off The Wall</h3>
 								</div>
 							</div>
 						</div>
@@ -471,7 +487,7 @@
 										<li class="menu-item dotted">
 											<h4>
 												<span class="menu-title">Men's color</span>
-												<span class="menu-price">(from) $120</span>
+												<span class="menu-price">$120</span>
 												<span class="menu-line"></span>
 											</h4>
 										</li>
@@ -485,22 +501,24 @@
 										<li class="menu-item dotted">
 											<h4>
 												<span class="menu-title">Men's Perm</span>
-												<span class="menu-price">(from) $120</span>
+												<span class="menu-price">$120</span>
 												<span class="menu-line"></span>
 											</h4>
 										</li>
 										<li class="menu-item dotted">
 											<h4>
 												<span class="menu-title">Permanenet Straightening</span>
-												<span class="menu-price">(from) $200</span>
+												<span class="menu-price">$200</span>
 												<span class="menu-line"></span>
 											</h4>
 										</li>
 									</ul>
 								</div>
+								<!--
 								<div class="column width-12 left color-grey-light">
-									<p><strong>20% OFF</strong> first service</p>
+									<p><strong>10% OFF</strong> first service</p>
 								</div>
+								-->
 							</div>
 						</div>
 						<!-- Menu End -->
@@ -509,10 +527,10 @@
 					<!-- About End -->
 
 					<!-- Gallery -->
-					<section id="shop" class="section-block">
+					<section class="section-block">
 						<div class="row">
 							<div class="column width-4">
-								<h3 class="mb-50">Gallery</h3>
+								<h3 class="mb-50" id="gallery">Gallery</h3>
 								<div class="row">
 									<div class="column width-10">
 										<p>See our work.</p>
@@ -640,7 +658,7 @@
 					</section>
 
 					<!-- Contact -->
-					<section id="contact">
+					<section>
 
 						<!-- Hero 5 -->
 						<div
@@ -650,9 +668,11 @@
 								<div class="column width-7 offset-5">
 									<div class="hero-content split-hero-content">
 										<div class="hero-content-inner left">
-											<h3 class="mb-30 color-white">Contact Us</h3>
-											<p style="margin-bottom: 0rem;">If you have any questions, don't hesitate to contact us. We will get back to you as soon as possible.</p>
-											<p style="margin-bottom: 0.5rem;">Phone : <a style="color: silver" href="tel:+61396502210">(03)
+											<h3 class="mb-30 color-white" id="contact">Contact Us</h3>
+											<p style="margin-bottom: 0rem;">If you have any questions, don't hesitate to
+												contact us. We will get back to you as soon as possible.</p>
+											<p style="margin-bottom: 0.5rem;">Phone : <a style="color: silver"
+													href="tel:+61396502210">(03)
 													9650 2210</a></p>
 											<!-- Form -->
 											<div class="contact-form-container">
@@ -683,20 +703,14 @@
 													</div>
 													<div class="row">
 														<div class="column width-12">
-															<div class="field-wrapper" v-if="day !== 'Sun'">
+															<div class="field-wrapper">
 																<textarea name="message"
 																	class="form-message form-element"
-																	placeholder="Message*"
-																	tabindex="7" required></textarea>
+																	placeholder="Message*" tabindex="7"
+																	required></textarea>
 																<input type="submit" value="Send" tabindex="8"
 																	target="_blank"
 																	class="form-submit button bkg-theme color-charcoal border-hover-white color-hover-white text-uppercase">
-															</div>
-															<div class="field-wrapper" v-else>
-																<textarea name="message"
-																	class="form-message form-element"
-																	placeholder="Sorry, We close on Sundays!*"
-																	tabindex="7" required></textarea>
 															</div>
 														</div>
 													</div>
@@ -738,11 +752,11 @@
 									<ul class="list-group large">
 										<li>
 											<span class="post-info"><span class="post-date">Weekdays</span></span>
-											<a href="" v-on:click.prevent>10:00am - 7:00pm</a>
+											<a href="" v-on:click.prevent>10:30am - 7:00pm</a>
 										</li>
 										<li>
 											<span class="post-info"><span class="post-date">Saturday</span></span>
-											<a href="" v-on:click.prevent>9:00am - 5:00pm</a>
+											<a href="" v-on:click.prevent>10:30am - 5:00pm</a>
 										</li>
 										<li>
 											<span class="post-info"><span class="post-date">Sunday / Public
@@ -786,6 +800,7 @@
 		</div>
 
 		<!-- Js -->
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="js/timber.master.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
@@ -798,28 +813,40 @@
 				data: {
 					clicked: false,
 					year: null,
-					day: null,
-					date: null
 				},
 				methods: {
 					callFunction: function () {
 						var currentDate = new Date().toDateString("en-US", { timeZone: "Australia/Melbourne" });
-						console.log(currentDate)
 						this.year = currentDate.slice(11, 15);
-						this.day = currentDate.slice(0, 3);
-						this.date = currentDate.slice(8, 10) + " " + currentDate.slice(4, 7) + " " + currentDate.slice(11, 15) + " (" + currentDate.slice(0, 3) + ")";
-						document.getElementById("date").value = this.date;
+					},
+					goFullscreen: function () {
+						var elem = document.getElementById("myvideo");
+						if (elem.requestFullscreen) {
+							elem.requestFullscreen();
+						} else if (elem.mozRequestFullScreen) { /* Firefox */
+							elem.mozRequestFullScreen();
+						} else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+							elem.webkitRequestFullscreen();
+						} else if (elem.msRequestFullscreen) { /* IE/Edge */
+							elem.msRequestFullscreen();
+						}
+						elem.play();
 					}
 				},
 				mounted() {
 					this.callFunction()
 				}
 			})
-
 		</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script>!function (e) { var t = "shedul-embed-button-loader", d = "https:" === e.location.protocol ? "https" : "http", n = e.getElementsByTagName("head")[0]; if (!e.getElementById(t)) { var o = e.createElement("script"), l = e.createElement("style"); o.id = t, o.src = "https://iframe.shedul.com/embed_button.js".replace(/^\w+/, d), l.type = "text/css", l.innerHTML = ".shedul-widget-open { position: fixed; overflow:hidden; }", n.appendChild(o), n.appendChild(l) } }(document);</script
+		<script>!function (e) { var t = "shedul-embed-button-loader", d = "https:" === e.location.protocol ? "https" : "http", n = e.getElementsByTagName("head")[0]; if (!e.getElementById(t)) { var o = e.createElement("script"), l = e.createElement("style"); o.id = t, o.src = "https://iframe.shedul.com/embed_button.js".replace(/^\w+/, d), l.type = "text/css", l.innerHTML = ".shedul-widget-open { position: fixed; overflow:hidden; }", n.appendChild(o), n.appendChild(l) } }(document);</script>
+
+		<script>
+			function goFullscreen() {
+			}
+			document.getElementById("video-button").addEventListener("click", goFullscreen);
+		</script>
 	</div>
 </body>
 
-</html>
+</html> 
