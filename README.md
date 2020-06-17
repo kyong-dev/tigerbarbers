@@ -8,4 +8,6 @@ Tigerbarbers is a barber shop located in the heart of Melbourne CBD. This projec
 
 ### Desktop
 ![Alt Text](readme/gif/desktop.gif "Product Demo")
+
+#### Screenshot
 ![Alt text](readme/image/desktop.png?raw=true "Class Diagram")
